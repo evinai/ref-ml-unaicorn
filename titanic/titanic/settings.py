@@ -25,13 +25,18 @@ SECRET_KEY = '(r4&w3enmzicou(8@kbhl6igrj#87ax6b6cr-64n!ip)sh4hrx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['3.128.34.145','127.0.0.1:8000','127.0.0.1']
+=======
+
+ALLOWED_HOSTS = []
+>>>>>>> b71ebe9c387fafe14e90ea9f9d9d5a0434ef03b1
 # '3.128.34.145', '127.0.0.1:8000', '127.0.0.1'
+
 
 # Application definition
 
-INSTALLED_APPS = [
-    'django.contrib.admin',
+INSTALLED_APPS = [    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
